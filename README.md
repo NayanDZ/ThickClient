@@ -103,6 +103,8 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - Regshot (Checking for data storage in registers)
     - API Monitor (Monitors and displays API calls made by applications and services)
     - Process Hacker (View DEP/ASLR settings, image file settings, connections, threads, permissions, strings from process, environmental variables)
+    - Spider2008 (Search file system for interesting strings with regular expressions)
+    - AccessEnum, Privesc, autoruns, schtasks (Dumping file,registry, and service permissions. Also review scheduled tasks excessive privilege and write script locations)
  
  - Reversing / Decompilers:
     - Java Byte Code Editor
@@ -111,6 +113,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - JetBrains dotPeek (Decomplier / Reversing .Net Application) (https://www.jetbrains.com/decompiler/download/)
     - ILSpy (Reversing .Net Application)
     - DnSpy (Reversing .Net Application)
+    - Graywolf
 
  - Packed executable checking tools:
     - PE Explorer (Detect compiler or packer type version)
