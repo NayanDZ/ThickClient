@@ -1,4 +1,4 @@
-# ThickClient
+# 5-ThickClient
 
 A Thick Client is a client in client–server architecture and typically provides rich functionality, independent of the server. 
 
