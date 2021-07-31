@@ -99,16 +99,16 @@ Replacing files and content
 ## Vulnerabilities applicable to Thick Client application
 
 ## Useful Recommendations
-•	Use three tier architecture instead of two tier application
-•	Encrypt traffic using strong algorithm
-•	Validate user inputs for length, special characters & code
-•	Maintain adequate Audit trail
-•	Do not store sensitive information like user password in computer memory, files, registry or database in clear text format 
-•	Default database port should not be use
-•	Strong password policy
-•	Session IDs used should be random and unbreakable. 
-•	Application should handle the errors without disclosing critical system information
-•	Implement proper file permission on application resources
-•	Basic Hygine & System hardening
-•	Proper patch management
+ - Use three tier architecture instead of two tier application
+ - Encrypt traffic using strong algorithm
+ - Validate user inputs for length, special characters & code
+ - Maintain adequate Audit trail
+ - Do not store sensitive information like user password in computer memory, files, registry or database in clear text format
+ - Default database port should not be use
+ - Strong password policy
+ - Session IDs used should be random and unbreakable.
+ - Application should handle the errors without disclosing critical system information
+ - Implement proper file permission on application resources
+ - Basic Hygine & System hardening
+ - Proper patch management
 
