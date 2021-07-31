@@ -67,31 +67,25 @@ Testing the application : registry
 There are many test cases which aid us to perform static analysis. Some of these include:
 - Memory Level Protection Checks ( DEP / ASLR) -> [ Process Explorer / Process Hacker ]
 -	Analysing Configuration files (Check if configuration files of the application disclose URL, Server credentials, Cryptographic keys and Clear text details) -> [ Notepad++ ]
-15.	Source code decompilation / Reverse Engineering - Check if the executable file could be decompiled to the source code of the application.
-Check for the hard coded credentials, cryptographic keys or business rules which could be modified and the application could be recompiled. 
-16.	Test encryption used in the application - If the application uses encryption, check how encryption keys are stored in the application. 
+-	Test encryption used in the application - If the application uses encryption, check how encryption keys are stored in the application. 
 Check what kind of encryption is used in the application (i.e. symmetric or asymmetric encryption).
-
-
-
-
-	String based analysis to find information -> [ Process Explorer ]
-	Configuration File checks 
-	Testing the Application : Files
-A. File permissions - Files and folders
-B. File Integrity - Strong naming, Authentic code signing
-C. File content Debugging Symbols/files,sensitive data,passwords, and settings
-D. File and content manipulation -
-Backdoor the framework
-DLL pre loading
-Race conditions
-Replacing files and content
+ - String based analysis to find information -> [ Process Explorer ]
+  -	Testing the Application : Files
+    - File permissions - Files and folders
+    - File Integrity - Strong naming, Authentic code signing
+    - File content Debugging Symbols/Files, Sensitive data, Passwords and settings
+    - File and content manipulation:
+      - Backdoor the framework
+      - DLL pre loading
+      - Race conditions
+      - Replacing files and content
 
 
 ### 5. Decompiling and Reverse engineering (Binary analysis)
 
-- Reverse Code Level Logic to bypass checks/ licences -> [ Ollydbg / IDA Pro / JD-GUI ]
-- Decompiling -> [ dotPeek ]
+-	Source code Decompilation - Check if the executable file could be decompiled to the source code of the application. -> [ dotPeek ]
+- Reverse Code Level Logic to bypass checks/ licences (Check for the hard coded credentials, cryptographic keys or business rules which could be modified and the application could be recompiled.)-> [ Ollydbg / IDA Pro / JD-GUI ]
+
 
 
 ## Tools For performing Thick client Pen-testing:
