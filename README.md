@@ -105,12 +105,40 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - Process Hacker (View DEP/ASLR settings, image file settings, connections, threads, permissions, strings from process, environmental variables)
  
  - Reversing / Decompilers:
+    - Java Byte Code Editor
+    - JD GUI
+    - Ollydbg
+    - JetBrains dotPeek (Decomplier / Reversing .Net Application) (https://www.jetbrains.com/decompiler/download/)
+    - ILSpy (Reversing .Net Application)
+    - DnSpy (Reversing .Net Application)
+
  - Packed executable checking tools:
+    - PE Explorer (Detect compiler or packer type version)
+    - PEid
+    - UPX Decompression
+    - .Net Reflector
+    - Reflexil (Reflexil is an assembly editor and runs as a plug-in for Red Gate’s Reflector) (http://reflexil.net/)
+    - IL Spy (ILSpy and Telerik’s JustDecompile) (http://ilspy.net/)
+
  - Memory Analysis:
+    - Winhex (Checking for data storage like username and password on client side/memory)
+    - Hxd
+    - Volatility
+    - Tsearch ( find and replace strings in memory)
+    - Userdump
+
  - Injection:
+    - Sqlmap 
  - DLL hijacking:
+    - Rattler (Automated DLL Enumerator)
  - Automated Source Code Review
+    - VSS Grepper (https://sourceforge.net/projects/visualcodegrepp/)
+    - Window Detective (View form object properties including the value of masked password fields, and mask card numbers)
+    - BinScope ( binary analysis tool provided by Microsoft. This tool is useful to check if the software being audited is making use of common exploit mitigation techniques such as DEP, ASLR, etc)
+
  - Exploitation:
+    - Metasploit ( used for side loading/ DLL and Exe injection)
+    - MSFpayload,msfencode, and MSFVenom (Used to generate shell code, DLL and EXE payloads for injection and side loading. This also ships with metasm ruby library that can be used to disassemble and compile binaries)
 
 ## Vulnerabilities applicable to Thick Client application
 
