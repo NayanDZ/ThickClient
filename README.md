@@ -26,8 +26,8 @@ In these types of applications, the major processing is done at the client side 
 5. Decompiling and Reverse engineering (Binary analysis)
 
 ### 1. Information Gathering
- - How is the application built - [CFF EXPLORER](https://ntcore.com/?page_id=388)
- - What are the servers the client is communicating with? - [TCPView / Wireshark ]
+ - How is the application built -> [CFF EXPLORER](https://ntcore.com/?page_id=388)
+ - What are the servers the client is communicating with? -> [TCPView / Wireshark ]
 
 ### 2. Dynamic Testing (Proxy setup and Traffic interception, Fuzzing, Injections, etc.)
 -	Input Validation - SQL injection, Command injection, LDAP injection.
@@ -98,7 +98,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
       - AccessEnum (Dump file and registry permission)  
       - Regedit (Backup, review and edit the registry)
       - Strings (Dump strings from files) 
-    - [CFF Explorer](https://ntcore.com/?page_id=388)(For Checking Application information) 
+    - [CFF Explorer](https://ntcore.com/?page_id=388) (For Checking Application information) 
     - Dllexp (Review exports, view/edit imports, edit and extract resources, view disk memory usage)
     - Regshot (Checking for data storage in registers)
     - API Monitor (Monitors and displays API calls made by applications and services)
@@ -110,7 +110,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - Java Byte Code Editor
     - JD GUI
     - Ollydbg
-    - [JetBrains dotPeek](https://www.jetbrains.com/decompiler/download)(Decomplier / Reversing .Net Application) 
+    - [JetBrains dotPeek](https://www.jetbrains.com/decompiler/download) (Decomplier / Reversing .Net Application) 
     - [ILSpy](http://ilspy.net/) (Reversing .Net Application)
     - DnSpy (Reversing .Net Application)
     - Graywolf
