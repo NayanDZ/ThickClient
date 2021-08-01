@@ -107,10 +107,10 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - AccessEnum, Privesc, autoruns, schtasks (Dumping file,registry, and service permissions. Also review scheduled tasks excessive privilege and write script locations)
  
  - Reversing / Decompilers:
+    - [JetBrains dotPeek](https://www.jetbrains.com/decompiler/download) (Decomplier / Reversing .Net Application) 
     - Java Byte Code Editor
     - JD GUI
     - Ollydbg
-    - [JetBrains dotPeek](https://www.jetbrains.com/decompiler/download) (Decomplier / Reversing .Net Application) 
     - [ILSpy](http://ilspy.net/) (Reversing .Net Application)
     - DnSpy (Reversing .Net Application)
     - Graywolf
@@ -137,8 +137,9 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
  - DLL hijacking:
     - Rattler (Automated DLL Enumerator)
  - Automated Source Code Review
-    - [VSS Grepper](https://sourceforge.net/projects/visualcodegrepp)
+    - [VSS Grepper](https://sourceforge.net/projects/visualcodegrepp) (First Decompile using DotPeek after that loan source code in VSS Grepper)
     - Window Detective (View form object properties including the value of masked password fields, and mask card numbers)
+    - Sigcheck.exe (from Sysinternals suite of tools to check assembly is signed by developers)
     - BinScope ( binary analysis tool provided by Microsoft. This tool is useful to check if the software being audited is making use of common exploit mitigation techniques such as DEP, ASLR, etc)
 
  - Exploitation:
