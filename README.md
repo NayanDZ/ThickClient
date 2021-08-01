@@ -26,7 +26,7 @@ In these types of applications, the major processing is done at the client side 
 5. Decompiling and Reverse engineering (Binary analysis)
 
 ### 1. Information Gathering
- - How is the application built - [CFF EXPLORER]
+ - How is the application built - [CFF EXPLORER](https://ntcore.com/?page_id=388)
  - What are the servers the client is communicating with? - [TCPView / Wireshark ]
 
 ### 2. Dynamic Testing (Proxy setup and Traffic interception, Fuzzing, Injections, etc.)
@@ -72,7 +72,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
 
 ### 5. Decompiling and Reverse engineering (Binary analysis)
 
--	Source code Decompilation - Check if the executable file could be decompiled to the source code of the application. -> [ dotPeek ]
+-	Source code Decompilation - Check if the executable file could be decompiled to the source code of the application. -> [ dotPeek ](https://www.jetbrains.com/decompiler/download)
 - Reverse Code Level Logic to bypass checks/ licences (Check for the hard coded credentials, cryptographic keys or business rules which could be modified and the application could be recompiled.)-> [ Ollydbg / IDA Pro / JD-GUI ]
 
 
@@ -98,7 +98,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
       - AccessEnum (Dump file and registry permission)  
       - Regedit (Backup, review and edit the registry)
       - Strings (Dump strings from files) 
-    - CFF Explorer (For Checking Application information) (https://ntcore.com/?page_id=388)
+    - [CFF Explorer](https://ntcore.com/?page_id=388)(For Checking Application information) 
     - Dllexp (Review exports, view/edit imports, edit and extract resources, view disk memory usage)
     - Regshot (Checking for data storage in registers)
     - API Monitor (Monitors and displays API calls made by applications and services)
@@ -110,8 +110,8 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - Java Byte Code Editor
     - JD GUI
     - Ollydbg
-    - JetBrains dotPeek (Decomplier / Reversing .Net Application) (https://www.jetbrains.com/decompiler/download/)
-    - ILSpy (Reversing .Net Application)
+    - [JetBrains dotPeek](https://www.jetbrains.com/decompiler/download)(Decomplier / Reversing .Net Application) 
+    - [ILSpy](http://ilspy.net/) (Reversing .Net Application)
     - DnSpy (Reversing .Net Application)
     - Graywolf
 
@@ -120,8 +120,8 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - PEid
     - UPX Decompression
     - .Net Reflector
-    - Reflexil (Reflexil is an assembly editor and runs as a plug-in for Red Gate’s Reflector) (http://reflexil.net/)
-    - IL Spy (ILSpy and Telerik’s JustDecompile) (http://ilspy.net/)
+    - [Reflexil](http://reflexil.net/) (Reflexil is an assembly editor and runs as a plug-in for Red Gate’s Reflector) 
+    - [ILSpy](http://ilspy.net/) (ILSpy and Telerik’s JustDecompile) 
 
  - Memory Analysis:
     - Winhex (Checking for data storage like username and password on client side/memory)
@@ -131,11 +131,11 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - Userdump
 
  - Injection:
-    - Sqlmap 
+    - [qlmap](https://github.com/sqlmapproject/sqlmap) 
  - DLL hijacking:
     - Rattler (Automated DLL Enumerator)
  - Automated Source Code Review
-    - VSS Grepper (https://sourceforge.net/projects/visualcodegrepp/)
+    - [VSS Grepper](https://sourceforge.net/projects/visualcodegrepp)
     - Window Detective (View form object properties including the value of masked password fields, and mask card numbers)
     - BinScope ( binary analysis tool provided by Microsoft. This tool is useful to check if the software being audited is making use of common exploit mitigation techniques such as DEP, ASLR, etc)
 
