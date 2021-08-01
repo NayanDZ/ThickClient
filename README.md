@@ -5,8 +5,8 @@ A Thick Client is a client in client–server architecture and typically provide
 In these types of applications, the major processing is done at the client side and involves only a periodic connection to the server.
 
 - Thick client applications are developed using some of the following technologies:
-  - Executable files [Written in Java, .Net, C/C++, Microsoft Silverlight]
-  - Java applets etc
+  - C / C++, Java
+  - .Net, Microsoft Silverlight
 
 ## Difference between Thick & Thin Client application
 | Thick Clent  | Thin Client |
