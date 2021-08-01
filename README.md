@@ -114,6 +114,8 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - [ILSpy](http://ilspy.net/) (Reversing .Net Application)
     - DnSpy (Reversing .Net Application)
     - Graywolf
+    - ildasm (Ildasm.exe is a disassembler included with the .NET Framework SDK and it can parse any .NET Framework .exe or .dll assembly and shows the information in a human-readable format known as CIL(Common Intermediate Language).)
+    - ilasm (Ilasm.exe is an IL assembler, which takes IL code as input and generates a portable executable (PE) file. )
 
  - Packed executable checking tools:
     - PE Explorer (Detect compiler or packer type version)
