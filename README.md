@@ -144,6 +144,20 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - MSFpayload,msfencode, and MSFVenom (Used to generate shell code, DLL and EXE payloads for injection and side loading. This also ships with metasm ruby library that can be used to disassemble and compile binaries)
 
 ## Vulnerabilities applicable to Thick Client application
+  - DLL Hijacking
+  - Source Code Disclosure
+  - Insecure Configuration Management
+  - Database Connection String Disclosure
+  - Check memory level protections (Address Space Layout Randomization, Data Execution Protection, Control Flow Guard)
+  - Code Obfuscation logic
+  - Insecure App Transport Security (ATS) Settings
+  - Insecure or unnecessary client-side cryptographic storage
+  - Sensitive Data In Process Memory
+  - Insecure storage
+  - Sensitive data disclosure
+  - Reverse engineering
+  - Buffer Overflows
+  - Review files, registry entries, memory for sensitive information
 
 ## Useful Recommendations
  - Use three tier architecture instead of two tier application
