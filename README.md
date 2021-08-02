@@ -41,12 +41,13 @@ In these types of applications, the major processing is done at the client side 
 - Log forging / Log tampering - Check for timestamp generated the client on the server side, this may lead to unreliable logs of the user activity.
 
 ### 3. System level testing (Checking for logs, Data files, Registry keys, Process threads)
+
+   - [DLL High-jacking](https://github.com/NayanDZ/DLLHijacking/blob/main/README.md) - Check if the application validates the DLL or exe used by the application 
+     - Check if application is signing the DLL.
+     - Inject Malicious DLL.
 -	Sensitive data in process memory: Memory inspection to find hardcoded passwords or clear-text credentials in process memory -> [ Winhex ]
 -	Dependencies in process: Checking for the executables and libraries used by the application. -> [ process monitor / Regshot ]
 -	Privilege levels of the application: Checking for the privilege level of the application on the client machine. Inject Privileged DLL Files
-   - DLL High-jacking - Check if the application validates the DLL or exe used by the application 
-     - Check if application is signing the DLL.
-     - Inject Malicious DLL.
   -	Testing the application Registry: Applications activities in the local machine, Real-time file system, registry, and process/thread activity -> [Process Monitor / regshot]
      - Registry permissions: Read and write access to registry keys
      - Registry content: Sensitive data, passwords and settings
