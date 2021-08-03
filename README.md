@@ -27,7 +27,7 @@ In these types of applications, the major processing is done at the client side 
 
 ### 1. Information Gathering
  - How is the application built -> [CFF EXPLORER](https://ntcore.com/?page_id=388)
- - What are the servers the client is communicating with? -> [TCPView / Wireshark ]
+ - What are the servers the client is communicating with? -> [[TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview) / [Wireshark](https://www.wireshark.org/download.html) ]
 
 ### 2. Dynamic Testing (Proxy setup and Traffic interception, Fuzzing, Injections, etc.)
 -	Input Validation - SQL injection, Command injection, LDAP injection.
