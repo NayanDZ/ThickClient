@@ -39,6 +39,7 @@ In these types of applications, the major processing is done at the client side 
 - Broken authentication & Session management
 - Try connecting directly to URLs via the web browser / Forced URL access via browser - Checking application if  uses the HTTP or HTTPS protocol then the configuration file. URL could be used to connect the server directly using web browser for finding web vulns.
 - Log forging / Log tampering - Check for timestamp generated the client on the server side, this may lead to unreliable logs of the user activity.
+- [Java Deserialization](https://blog.securelayer7.net/thick-client-penetration-testing-3javadeserialization-exploit-rce/)
 
 ### 3. System level testing (Checking for logs, Data files, Registry keys, Process threads)
 
