@@ -48,7 +48,7 @@ In these types of applications, the major processing is done at the client side 
 -	Sensitive data in process memory: Memory inspection to find hardcoded passwords or clear-text credentials in process memory -> [ Winhex ]
 -	Dependencies in process: Checking for the executables and libraries used by the application. -> [ process monitor / Regshot ]
 -	Privilege levels of the application: Checking for the privilege level of the application on the client machine. Inject Privileged DLL Files
-  -	Testing the application Registry: Applications activities in the local machine, Real-time file system, registry, and process/thread activity -> [Process Monitor / regshot]
+  -	[Testing the application Registry](https://resources.infosecinstitute.com/topic/damn-vulnerable-thick-client-app-part-3/#article): Applications activities in the local machine, Real-time file system, registry, and process/thread activity -> [Process Monitor / regshot]
      - Registry permissions: Read and write access to registry keys
      - Registry content: Sensitive data, passwords and settings
      - Registry manipulation: bypass authentication and authorization, replace content
