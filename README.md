@@ -54,7 +54,7 @@ In these types of applications, the major processing is done at the client side 
      - Registry manipulation: bypass authentication and authorization, replace content
      - Monitors calls to file, registry keys and sockets
 
-### 4. Static testing (Local storage and Memory testing)
+### 4. Static testing [(Local storage and Memory testing)](https://blog.securelayer7.net/static-analysismemory-forensics-reverse-engineering-thick-client-penetration-testing-part-4/)
 There are many test cases which aid us to perform static analysis. Some of these include:
 - Memory Level Protection Checks ( DEP / ASLR) -> [ Process Explorer / Process Hacker ]
 -	Analysing Configuration files (Check if configuration files of the application disclose URL, Server credentials, Cryptographic keys and Clear text details) -> [ Notepad++ ]
