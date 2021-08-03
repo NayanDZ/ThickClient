@@ -79,7 +79,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
 
 
 ## Tools For performing Thick client Pen-testing:
- - Interception proxies:
+ - Proxy Interception:
     - Brp Suite
     - Fiddler
     - Echo Mirage
