@@ -146,7 +146,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
 
  - Exploitation:
     - Metasploit ( used for side loading/ DLL and Exe injection)
-    - MSFpayload,msfencode, and MSFVenom (Used to generate shell code, DLL and EXE payloads for injection and side loading. This also ships with metasm ruby library that can be used to disassemble and compile binaries)
+    - MSFpayload, msfencode, and MSFVenom Used to generate shell code, DLL and EXE payloads for injection and side loading. 
 
 ## Vulnerabilities applicable to Thick Client application
   - DLL Hijacking
