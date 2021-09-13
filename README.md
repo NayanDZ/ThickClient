@@ -143,7 +143,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - Window Detective (View form object properties including the value of masked password fields, and mask card numbers)
     - Sigcheck.exe (from Sysinternals suite of tools to check assembly is signed by developers)
     - BinScope ( binary analysis tool provided by Microsoft. This tool is useful to check if the software being audited is making use of common exploit mitigation techniques such as DEP, ASLR, etc)
-    - [Microsoft ApplicationInspector](https://github.com/Microsoft/ApplicationInspector):a free and open-source tool used by its developers to analyze source code for a potential security threat
+    - [Microsoft ApplicationInspector](https://github.com/Microsoft/ApplicationInspector): Is a free and open-source tool used by its developers to analyze source code for a potential security threat
 
  - Exploitation:
     - Metasploit ( used for side loading/ DLL and Exe injection)
