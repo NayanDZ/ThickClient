@@ -156,6 +156,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
   - Database Connection String Disclosure
   - Check memory level protections (Address Space Layout Randomization, Data Execution Protection, Control Flow Guard)
   - Code Obfuscation logic
+  - String based analysis to find information
   - Insecure App Transport Security (ATS) Settings
   - Insecure or unnecessary client-side cryptographic storage
   - Sensitive Data In Process Memory
@@ -163,7 +164,14 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
   - Sensitive data disclosure
   - Reverse engineering
   - Buffer Overflows
-  - Review files, registry entries, memory for sensitive information
+  - Sensitive Data In Registry (Review files, registry entries, memory for sensitive information)
+  - Source Code Disclosure
+  - Insecure Communication
+  - Clear Text Password Submission
+  - Authentication Bypass
+  - Improper Session Management
+  - Parameter Tampering
+  - Injection
 
 ## Useful Recommendations
  - Use three tier architecture instead of two tier application
