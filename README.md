@@ -187,3 +187,5 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
  - Basic Hygine & System hardening
  - Proper patch management
 
+## 👽 Vulnerable Thick Client application for learning purpose
+- [DVTA](https://github.com/srini0x00/dvta) Vulnerable exe developed in C#/.NET
