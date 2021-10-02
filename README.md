@@ -46,7 +46,7 @@ In these types of applications, the major processing is done at the client side 
    - [DLL High-jacking](https://github.com/NayanDZ/DLLHijacking/blob/main/README.md) - Check if the application validates the DLL or exe used by the application 
      - Check if application is signing the DLL.
      - Inject Malicious DLL.
--	Sensitive data in process memory: Memory inspection to find hardcoded passwords or clear-text credentials in process memory -> [ Winhex ]
+-	Sensitive data in process memory: Memory inspection to find hardcoded passwords or clear-text credentials in process memory -> [ Winhex / Volatility]
 -	Dependencies in process: Checking for the executables and libraries used by the application. -> [ process monitor / Regshot ]
 -	Privilege levels of the application: Checking for the privilege level of the application on the client machine. Inject Privileged DLL Files
   -	[Testing the application Registry](https://resources.infosecinstitute.com/topic/damn-vulnerable-thick-client-app-part-3/#article): Applications activities in the local machine, Real-time file system, registry, and process/thread activity -> [Process Monitor / regshot]
