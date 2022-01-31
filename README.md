@@ -158,20 +158,26 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
   - Code Obfuscation logic
   - String based analysis to find information
   - Insecure App Transport Security (ATS) Settings
-  - Insecure or unnecessary client-side cryptographic storage
+  - Insecure or unnecessary client-side cryptographic storage / encryption algorithm key store
   - Sensitive Data In Process Memory
   - Insecure storage
   - Sensitive data disclosure
+  - Log Forging
   - Reverse engineering
-  - Buffer Overflows
+  - Buffer Overflows / Memory corruption 
   - Sensitive Data In Registry (Review files, registry entries, memory for sensitive information)
   - Source Code Disclosure
-  - Insecure Communication
-  - Clear Text Password Submission
+  - Insecure Communication (Communication between thick client and web server over SSL? Can you tamper it by introducing a fake cert? Does it validate thec burpsuite SSL certificate) 
   - Authentication Bypass
-  - Improper Session Management
-  - Parameter Tampering
+  - Improper Session Management or Insecure storage of token/keys
+  - Improper error Handling
+  
+  #### Intercept the application request and you can try all web application based attacks.
   - Injection
+  - Parameter Tampering
+  - Broken access control
+  - Clear Text Password Submission
+  - File upload functionality
 
 ## Useful Recommendations
  - Use three tier architecture instead of two tier application
