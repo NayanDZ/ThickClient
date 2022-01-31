@@ -138,6 +138,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - [qlmap](https://github.com/sqlmapproject/sqlmap) 
  - DLL hijacking:
     - Rattler (Automated DLL Enumerator)
+    - [Dll Hijack Auditor](https://www.toolwar.com/2014/02/dll-hijack-auditor-audit-dll-hijacking.html#:~:text=Tutorials%20%3A%3A%201%20Here%20are%20simple%20tests%20to,Audit%27%20to%20begin%20the%20operation.%20More%20items...%20)
  - Automated Source Code Review
     - [VSS Grepper](https://sourceforge.net/projects/visualcodegrepp) (First Decompile using DotPeek after that loan source code in VSS Grepper)
     - Window Detective (View form object properties including the value of masked password fields, and mask card numbers)
@@ -152,7 +153,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
 ## Vulnerabilities applicable to Thick Client application
   - DLL Hijacking
   - Source Code Disclosure
-  - Insecure Configuration Management
+  - Insecure Configuration Management (Analyze installation folder, Does it install any URI on the system? is it securely implemented?)
   - Database Connection String Disclosure
   - Check memory level protections (Address Space Layout Randomization, Data Execution Protection, Control Flow Guard)
   - Code Obfuscation logic
@@ -161,16 +162,20 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
   - Insecure or unnecessary client-side cryptographic storage / encryption algorithm key store
   - Sensitive Data In Process Memory
   - Insecure storage
-  - Sensitive data disclosure
+  - Sensitive data disclosure (Hard coded credentials or any clear text sensitive details in text/config files)
   - Log Forging
   - Reverse engineering
   - Buffer Overflows / Memory corruption 
   - Sensitive Data In Registry (Review files, registry entries, memory for sensitive information)
+  - sensitive Data in Process memory dump to identify credentials, credit card number etc.
   - Source Code Disclosure
   - Insecure Communication (Communication between thick client and web server over SSL? Can you tamper it by introducing a fake cert? Does it validate thec burpsuite SSL certificate) 
   - Authentication Bypass
   - Improper Session Management or Insecure storage of token/keys
   - Improper error Handling
+  - Does the application have a remember me function? If so, where and how does it store the user password.
+  - What privilege does the application run with - admin or normal user?
+  - applicationd process dependencies
   
   #### Intercept the application request and you can try all web application based attacks.
   - Injection
