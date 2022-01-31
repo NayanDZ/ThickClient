@@ -155,7 +155,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
   - Source Code Disclosure
   - Insecure Configuration Management (Analyze installation folder, Does it install any URI on the system? is it securely implemented?)
   - Database Connection String Disclosure
-  - Check memory level protections (Address Space Layout Randomization, Data Execution Protection, Control Flow Guard)
+  - Check memory level protections (Address Space Layout Randomization (ASLR), Data Execution Protection (DEP), Control Flow Guard (CFG))
   - Code Obfuscation logic
   - String based analysis to find information
   - Insecure App Transport Security (ATS) Settings
