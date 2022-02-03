@@ -95,13 +95,14 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - JavaSnoop
    
  - Static Analysis:
+    - [CFF Explorer](https://ntcore.com/?page_id=388) (For Checking Application information)
     - System Internals:
       - Process Monitor (Checking sensitive data/ Monitors calls to file, registry keys and sockets)
       - Process Explorer (View image file settings, process, connections, threads, permissions, strings from process, environmental variables)
       - AccessEnum (Dump file and registry permission)  
       - Regedit (Backup, review and edit the registry)
       - Strings (Dump strings from files) 
-    - [CFF Explorer](https://ntcore.com/?page_id=388) (For Checking Application information) 
+     
     - Dllexp (Review exports, view/edit imports, edit and extract resources, view disk memory usage)
     - Regshot (Checking for data storage in registers)
     - API Monitor (Monitors and displays API calls made by applications and services)
