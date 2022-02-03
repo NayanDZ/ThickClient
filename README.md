@@ -79,6 +79,13 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
 
 
 ## Tools For performing Thick client Pen-testing:
+
+- Traffic Analysis: 
+    - Wireshark (capturing communcation packets)
+    - TCP View (Checking connection details with server)
+    - TCP Dump
+    - Interactive TCP Relay
+    
  - Proxy Interception:
     - Brp Suite
     - Fiddler
@@ -87,12 +94,6 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
     - Mallory
     - JavaSnoop
    
- - Traffic Analysis: 
-    - TCP Dump
-    - Wireshark (capturing communcation packets)
-    - Interactive TCP Relay
-    - TCP View (Checking connection details with server)
-
  - Static Analysis:
     - System Internals:
       - Process Monitor (Checking sensitive data/ Monitors calls to file, registry keys and sockets)
