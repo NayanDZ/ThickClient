@@ -80,14 +80,15 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
 
 ## Tools For performing Thick client Pen-testing:
 
-- Dynamic Testing / Functional Level Testing
+**- Dynamic Testing / Functional Level Testing**
   - Proxy Interception:
-    - Proxy Aware Thick Client
+  
+    - ***Proxy Aware Thick Client***
        - Brp Suite  
        - Fiddler 
        - JavaSnoop
        
-    - Proxy Unaware Thick Client
+    - ***Proxy Unaware Thick Client***
       - Echo Mirage
       - Iron Wasp (Proxy Unaware & Aware Thick Client)
       - Charles
