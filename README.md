@@ -80,20 +80,25 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
 
 ## Tools For performing Thick client Pen-testing:
 
-- Traffic Analysis: 
+- Dynamic Testing / Functional Level Testing
+  - Proxy Interception:
+    - Proxy Aware Thick Client
+       - Brp Suite  
+       - Fiddler 
+       - JavaSnoop
+       
+    - Proxy Unaware Thick Client
+      - Echo Mirage
+      - Iron Wasp (Proxy Unaware & Aware Thick Client)
+      - Charles
+      - Mallory
+    
+  - Network Traffic Analysis: 
     - Wireshark (capturing communcation packets)
     - TCP View (Checking connection details with server)
     - TCP Dump
     - Interactive TCP Relay
     
- - Proxy Interception:
-    - Brp Suite
-    - Fiddler
-    - Echo Mirage
-    - Charles
-    - Mallory
-    - JavaSnoop
-   
  - Static Analysis:
     - [CFF Explorer](https://ntcore.com/?page_id=388) (For Checking Application information)
     - System Internals:
