@@ -84,7 +84,7 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
   - Proxy Interception:
   
     - ***Proxy Aware Thick Client***
-       - Brp Suite  
+       - Brp Suite  (Burp's Invisible Proxy Settings to Test a Non-Proxy-Aware Thick Client Application): Go to Request handling in the Proxy listener window, fill in the appropriate host and port information and ensure invisible proxying is enabled.
        - Fiddler 
        - JavaSnoop
        
