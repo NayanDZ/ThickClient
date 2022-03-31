@@ -83,12 +83,12 @@ Check what kind of encryption is used in the application (i.e. symmetric or asym
 **- Dynamic Testing / Functional Level Testing**
   - Proxy Interception:
   
-    - ***Proxy Aware Thick Client***
+    - ***Proxy-Aware Thick Client***: If Thick Client application has a built-in feature to set up a proxy server, then it is known as a proxy-aware Thick Client.
        - Brp Suite  (Burp's Invisible Proxy Settings to Test a Non-Proxy-Aware Thick Client Application): Go to Request handling in the Proxy listener window, fill in the appropriate host and port information and ensure invisible proxying is enabled.
        - Fiddler 
        - JavaSnoop
        
-    - ***Proxy Unaware Thick Client***
+    - ***Proxy-Unaware Thick Client***: Proxy-unaware Thick Clients are difficult to test because of the hurdles encountered while setting up a proxy.
       - Echo Mirage
       - Iron Wasp (Proxy Unaware & Aware Thick Client)
       - Charles
